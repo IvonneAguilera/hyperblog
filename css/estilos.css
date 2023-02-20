@@ -5,12 +5,28 @@ body
     font-family: "Arial";
     font-size: 16;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 }
-
+#cabecera
+{
+    background-color: rgb(209, 168, 248);
+    font-family: "Arial";
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.5);
+    font-size: 26;
+    font-weight: bold;
+    color: rgb(50, 56, 55);
+    margin: 0;
+    padding: 0.5em;
+}
+#cabecera #tagline
+{
+    margin: 1em 0 0 0;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container 
 {
-    width: 70%;
+    width: 90%;
     padding: 1em;
     text-align: center;
     border: 1px solid#DDD;
@@ -20,4 +36,9 @@ body
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    padding: 2em;
 }
